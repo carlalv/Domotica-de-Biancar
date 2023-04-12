@@ -13,10 +13,10 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "UtNuNFtqB5bg7IHj4cAYAfDMI/Y95L0e922d27vwbgQ="
+    key:
 
 ota:
-  password: "db62883480c8e473625c712638beac46"
+  password: 
 
 wifi:
   ssid: !secret wifi_ssid
@@ -25,7 +25,7 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Esp32-Iot1 Fallback Hotspot"
-    password: "DSvcCNw8PAyA"
+    password:
 
 captive_portal:
 #Sensor de temperatura y humedad del ambiente en que se encuentre
